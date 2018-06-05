@@ -97,6 +97,19 @@ const taskDuration = tasks.map ((index) => {
 });
 
 
+//SPRIT OPERATOR
+const arr = [1, 2, 3]
+const addition = (arr) => {
+  console.log (num1 + num2 + num3)
+}
+addition(...arr)
+
+//teniendo dos arreglos y fucionarlos
+let arr1 = [1, 2, 3];
+let arr2 = [0, ...arr1, 4, 5, 6]; //con ... mas el nombre de lo que quiero meter ahi lo suma
+
+
+
 
 
 }
